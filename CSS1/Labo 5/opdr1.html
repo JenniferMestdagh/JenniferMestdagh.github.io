@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/opdr1.css">
+</head>
+<body>
+    <h1>CSS Labo 1 : </h1>
+    <section>
+        <h2>Opdracht 1</h2>
+        <div class="space">
+            <p class="vraag">Wat zijn de siblings van het &lt;ul&gt; element?</p>
+            <p>p en h1</p>
+        </div>
+        <div class="space">
+            <p class="vraag">Wat zijn de ancestors van het tweede &lt;li&gt; element?</p>
+            <p>het list element zelf : &lt;ul&gt;</p>
+        </div>
+        <div class="space">
+           <p class="vraag">Wat zijn de descendants van het &lt;body&gt; element?</p>
+           <p>h1, p, ul</p>
+        </div>
+        <div class="space">
+            <p class="vraag">Hoeveel elementen in een geldig HTML document hebben geen parent?</p>
+            <p>twee: head en body</p>
+        </div>
+        <div class="space">
+           <p class="vraag">Heeft elk element één of meerdere child elementen?</p>
+           <p>nee</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Opdracht 2 : </h2>
+        <p class="vraag">Open je persoonlijke pagina in Chrome, bekijk de visualisatie van de DOM‐tree op het Elements
+            tabblad en vergelijk dit met de HTML code van je pagina.</p>
+        <img src="images/DOMTree.png" class="img" alt="image of DOM-tree for personal homepage assignment">
+-    </section>
+
+    <section>
+        <h2>Opdracht 3 : </h2>
+        <div>
+            <p class="vraag">noteer telkens op welke manier(en) de bijbehorende CSS‐regels geïntroduceerd worden</p>
+            <p>Vives en miras gebruiken verschillende aparte stylesheets in een mapje CSS dat gelinkt wordt in de head</p>
+            <p class="margintop">VRT zet een style attribuut onder hun footer, dus helemaal onderaan in de body, om daar alle CSS taken uit te voeren -> is niet in een aparte file maar in de html-fil</p>
+            <p>een inline styleblok wordt hier niet gebruikt.</p>
+            <div class="flex">
+                <img src="images/Miras.png" class="imgflex" alt="screenshot van hoe css toegepast wordt in miras">
+                <img src="images/Vives.png" class="imgflex" alt="screenshot van hoe css toegepast wordt in vives">
+                <img src="images/VRT.png" class="imgflex" alt="screenshot van hoe css toegepast wordt op VRT">
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Opdracht 4 : </h2>
+        <p>-onmaakbaar-</p>
+    </section>
+
+    <section>
+        <h2>Opdracht 5 : </h2>
+        <p class="vraag">Pas de css code aan in de inspector</p>
+        <p>De code is gemakkelijk en niet permanent aan te passen via de inspector. Vanaf je herlaadt wordt de aangepaste code weer gereset naar de oorspronkelijke code.</p>
+        <img src="images/CSSzen.png" class="img" alt="bewijs dat ik de inspector uitgetest heb">
+    </section>
+
+    <section>
+        <h2>Opracht 6 : </h2>
+        <p class="maak onderstaande opmaak"></p>
+        <div>
+            <h1 class="h1">Dit is een h1</h1>
+                <p class="p groen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h2 class="h2">Dit is een h2</h2>
+                <p class="p blauw">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="h3">Dit is een h3</h3>
+                <p class="p rood">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Er is niemand die van pijn houdt, die er naar zoekt, en het wil hebben, simpelweg omdat het pijn is...).</p>
+                <p><strong>Ik heb aan ieder element in deze opdracht een klasse gegeven zodat ik geen apart html-document moest aanmaken, ik ben me ervan bewust dat ik normaal geen klasses moet maken om mijn CSS toe te passen, maar dat ik dit op de elementen zelf kan doen. Ik wou hiermee gewoon voorkomen dat mijn opmaak voor het volledige bestand werd aangepast.</strong></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Opdracht 7 : </h2>
+        <p class="vraag">Welk wordt volgens de CSS standaard het grootst weergegeven en waarom? (em en ex)</p>
+        <p>p > mm, cm > em > rem > ex > pt, pi</p>
+        <p>met andere woorden, em is grooter dan ex. em is in vergelijking met de volledige hoogte van je letters (van het hoogste punt van waar de h bv stopt, tot het laagste punt waar de g bv. stopt).</p>
+        <p>De ex is in vergelijking met de x-hoogte van je letters, dit is enkel de hoogte van bv. de letters x, e, o, r, ...</p>
+        <img src="images/emenex.png" alt="illustratie van het verschil tussen de em en ex hoogtes" class="img">
+    </section>
+
+
+
+</body>
+</html>
