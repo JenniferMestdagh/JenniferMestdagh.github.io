@@ -49,6 +49,7 @@ h2{
 .h2{
     font-family: 'Arial', sans-serif;
     font-size: 1.5em;
+    text-transform: none;
 }
 
 .h3{
