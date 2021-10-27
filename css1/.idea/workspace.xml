@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d736ac-10de-48fb-9a17-dfaac4fb349b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/opdr2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opdr2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/opdr1.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/opdr1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opdr1.html" beforeDir="false" afterPath="$PROJECT_DIR$/opdr1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/CSS/extra_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/CSS/resumé.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/images/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/opdr3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labo 2/opdr4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/opdr2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html5/hobby's.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html5/images/pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html5/likes.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,12 +41,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1zloNiiyuFqzOa1KM35SovHSxsS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -47,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1634731998438</updated>
       <workItem from="1634732000547" duration="6080000" />
-      <workItem from="1635336613225" duration="2453000" />
+      <workItem from="1635336613225" duration="3005000" />
+      <workItem from="1635350788975" duration="7927000" />
     </task>
     <servers />
   </component>
@@ -76,5 +87,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

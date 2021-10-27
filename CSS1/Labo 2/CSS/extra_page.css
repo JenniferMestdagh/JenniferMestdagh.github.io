@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana;
+    font-size: 1.1em;
+    background-color: silver;
+    color: midnightblue;
+}
+
+h1 {
+    font-variant: all-small-caps;
+    background-color: red;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+h1:hover {
+    background-color: silver;
+    color: red;
+    border: 1px solid midnightblue;
+    border-radius: 45px;
+}
+
+ul {
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px dashed white;
+    border-radius: 15px;
+}
+
+.dashed {
+    margin: 15px;
+    padding: 15px;
+    border: 1px dashed white;
+    border-radius: 15px;
+}

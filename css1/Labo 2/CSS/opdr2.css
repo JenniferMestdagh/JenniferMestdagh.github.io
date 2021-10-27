@@ -6,3 +6,22 @@ body {
 .vraag{
     font-weight: bold;
 }
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+pre {
+    font-family : 'Raleway', sans-serif !important;
+}
+
+.checklist li {
+    list-style-type: "\2610   ";
+}
+
+.checked {
+    list-style-image: url('../images/checkbox.svg');
+}
