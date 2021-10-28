@@ -1,22 +1,19 @@
+/* ALGEMENE OPMAAK */
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+.margin {
+    margin: 0px 230px;
+    padding: 50px 0px;
+}
+
 body {
-    font-family : 'Raleway', sans-serif;
-    margin : 50px;
+    font-family : 'work sans', sans-serif;
 }
 
-.vraag{
-    font-weight: bold;
-}
-
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
-pre {
-    font-family : 'Raleway', sans-serif !important;
-}
+/* OPMAAK OPDRACHT 6 */
 
 .checklist li {
     list-style-type: "\2610   ";
@@ -24,4 +21,97 @@ pre {
 
 .checked {
     list-style-image: url('../images/checkbox.svg');
+}
+
+
+/* OPMAAK VAN DOCUMENT ZELF */
+.img{
+    display: block;
+    width: 75%;
+}
+
+/* header */
+header {
+    background-color: #222222;
+    padding-top: 200px;
+}
+
+header h1 {
+    color: #ffec5d;
+    font-size: 50pt;
+    font-weight: 500;
+}
+
+header p {
+    color: white;
+}
+
+.tussentitel {
+    font-size: 16pt;
+    padding-bottom: 40px;
+}
+
+.widthheader {
+    width: 50%;
+}
+
+#arrowdown {
+    color: white;
+    font-size: 40px;
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+/* opdrachten */
+h2 {
+    text-transform: uppercase;
+    color: #222222;
+    display: inline-block;
+    background-color: #ffec5d;
+    font-size: 15pt;
+    font-weight: 400;
+    padding: 5px 10px;
+    margin: 0px 0px 30px 40px;
+}
+
+.box {
+    box-shadow: 0px 1px 6px #e5e5e5;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 25px 50px;
+}
+
+.width{
+    width: 40%;
+}
+
+.photo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.photo2 {
+    width: 50%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222222;
+}
+
+/* footer */
+
+footer{
+    background-color: #222222;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
