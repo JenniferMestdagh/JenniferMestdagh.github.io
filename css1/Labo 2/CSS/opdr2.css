@@ -16,11 +16,11 @@ body {
 /* OPMAAK OPDRACHT 6 */
 
 .checklist li {
-    list-style-type: "\2610   ";
+    list-style-image: url("../images/square-regular.svg");
 }
 
 .checked {
-    list-style-image: url('../images/checkbox.svg');
+    list-style-image: url('../images/checkbox.svg') !important;
 }
 
 

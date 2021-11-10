@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d736ac-10de-48fb-9a17-dfaac4fb349b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Labo 2/images/square-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,8 @@
       <workItem from="1635336613225" duration="3005000" />
       <workItem from="1635350788975" duration="8677000" />
       <workItem from="1635371587610" duration="772000" />
-      <workItem from="1635418830942" duration="8242000" />
+      <workItem from="1635418830942" duration="8503000" />
+      <workItem from="1636534450747" duration="295000" />
     </task>
     <servers />
   </component>
