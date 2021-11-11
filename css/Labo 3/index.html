@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 3 CSS</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://kit.fontawesome.com/329c67ddc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+
+    <section class="margin flex">
+        <div class="widthheader">
+            <h1>Web Development</h1>
+            <p class="tussentitel">CSS : labo 3</p>
+            <p>Deze les introduceert specificiteit en behandelt de opmaak van tabellen.</p>
+        </div>
+        <div>
+            <i class="fas fa-arrow-circle-down" id="arrowdown"></i>
+        </div>
+    </section>
+</header>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>opdracht 1</h2>
+            <span class="streep"></span>
+        </div>
+        <p class="vraag">Lees de documenten die hierboven worden worden aangehaald en experimenteer met
+            de aangehaalde technieken op verschillende pagina's.</p>
+        <div class="flex">
+            <img src="images/selectionTool1.png" class="opdr1img" alt="selection tool aanduiden" title="selection tool aanduiden">
+            <img src="images/ResponsiveTool2.png" class="opdr1img" alt="responsive tool aanklikken" title="responsive tool aanklikken">
+        </div>
+        <div>
+            <p>Bij de eerste foto heb ik gebruik gemaakt van de selection tool (het icoontje <img src="images/SelectionTool.svg" class="icoon">).
+            Deze tool zorgt ervoor dat je gemakkelijk elementen kan terugvinden in de html en css door te klikken in de website zelf.</p>
+            <p>Bij de tweede foto kan je een tool gebruiken die je de mogelijkheid geeft om je webpagina in andere screen sizes te bekijken,
+                hiermee wordt er gecontroleerd of de webpagina responsive is (icoon naast de selection tool).</p>
+            <p>Naast deze tools kan je via de inspector ook zien welke regels overschreden zijn (zie eerste foto), dit kan je zien omdat
+            sommige regels doorstreept zijn in de css.</p>
+            <p>Sommige lijnen staan ook in het grijs gekleurd in de css, dit wil zeggen dat deze waarden in default staan. </p>
+        </div>
+
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht “Nature blog"</h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Probeer de pagina zo goed mogelijk na te bouwen.</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="opgave nature blog/index.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht “personal homepage"</h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">herwerk je personal homepage met CSS.</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="personal Homepage/index.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 2</h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Maak een HTML tabel met persoonsgegevens van een vijftal imaginaire vrienden met minstens 6
+                    kolommen (voornaam, familienaam, postcode, etc.).
+                    Voeg deze tabel toe aan je persoonlijke pagina in een sectie 'Vrienden'.</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="personal Homepage/vrienden.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 3</h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Waarom heeft de CSS regel <br><span class="italic">.onbekend {background‐color : red; }</span><br> geen effect als je deze toepast op
+                    een &lt;td&gt; cel in een &lt;tr&gt; rij met class="alt", maar wel in een &lt;tr&gt; rij zonder deze 'alt' class?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>De rode kleur komt niet boven de blauwe rijkleur omdat de rij een hogere prioriteit heeft dan het &lt;td&gt; element.</p>
+                <p>Dit kan aangepast worden door de regel <br><span class="italic">'!important'</span><br> toe te voegen aan de CSS-regel waar de rode kleur wordt
+                toegevoegd. Soms kan de volgorde van CSS regels ook invloed hebben op de prioriteit, maar in deze situatie is dat niet het geval
+                aangezien de rode kleur helemaal onderaan in het CSS-bestand toegewezen wordt.</p>
+                <p><a href="personal Homepage/vrienden.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht kalender </h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Maak een HTML‐pagina met de tabel uit Figuur 2. Probeer dit
+                    zonder een speciale 'weekend' CSS‐class te regelen. Voorbeeld met de :first‐child en :last‐child
+                    pseudo‐class selectoren.</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="kalender.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+                <section>
+                    <div>
+                        <table>
+                            <thead>
+                            <tr class="month">
+                                <th colspan=7>June 2020</th>
+                            </tr>
+                            <tr class="weekdays">
+                                <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="gray">30</td><td>1</td><td>2</td><td>3</td><td class="underline">4</td><td class="underline">5</td><td>6</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>8</td><td>9</td><td class="underline">10</td><td class="underline">11</td><td>12</td><td>13</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td class="underline">15</td><td class="darkpink">16</td><td>17</td><td>18</td><td class="underline">19</td><td>20</td>
+                            </tr>
+                            <tr>
+                                <td>21</td><td>22</td><td class="underline">23</td><td>24</td><td class="underline">25</td><td>26</td><td>27</td>
+                            </tr>
+                            <tr>
+                                <td>28</td><td>29</td><td>30</td><td>31</td><td class="gray">1</td><td class="gray">2</td><td class="gray">3</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+</section>
+
+<footer>
+    <section class="flex margin">
+        <div>
+            <p>Jennifer Mestdagh</p>
+            <p>Web Development 2021</p>
+            <p>Week 7 - CSS : Labo 3</p>
+        </div>
+        <p>Katholieke Hogeschool Vives</p>
+    </section>
+</footer>
+</body>
+</html>

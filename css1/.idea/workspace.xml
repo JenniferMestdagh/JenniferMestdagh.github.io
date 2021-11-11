@@ -2,9 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d736ac-10de-48fb-9a17-dfaac4fb349b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Labo 2/images/square-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/CSS/opdr1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/CSSzen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/DOMTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/Miras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/VRT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/Vives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/images/emenex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 1/opdr1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/CSS/opdr2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/CSS/opdr3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/CSS/opdr4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/DomTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/codeOpdr1.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/codeOpdr1.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/codeOpdr1.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/images/square-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/opdr3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 2/opdr4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/CSS/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/images/ResponsiveTool1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/images/ResponsiveTool2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/images/SelectionTool2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/images/selectionTool1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/Labo 3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/CSS/opdr1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/CSSzen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/DOMTree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/Miras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/VRT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/Vives.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/images/emenex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 1/opdr1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/CSS/opdr4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/DomTree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/checkbox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/codeOpdr1.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/codeOpdr1.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/codeOpdr1.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/images/square-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/opdr3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labo 2/opdr4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +109,7 @@
       <workItem from="1635350788975" duration="8677000" />
       <workItem from="1635371587610" duration="772000" />
       <workItem from="1635418830942" duration="8503000" />
-      <workItem from="1636534450747" duration="295000" />
+      <workItem from="1636534450747" duration="3976000" />
     </task>
     <servers />
   </component>

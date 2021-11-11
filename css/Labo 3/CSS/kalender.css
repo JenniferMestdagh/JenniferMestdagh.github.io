@@ -1,0 +1,57 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+
+
+.darkpink {
+    background-color: rgb(250,120,120);
+}
+
+tbody tr td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+tbody tr td:first-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.gray {
+    background-color: lightgray !important;
+    color: dimgray !important;
+}
+
+table th {
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+table td {
+    width: 50px;
+    text-align: center;
+    padding: 12px 10px;
+    border: 1px dotted black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.weekdays {
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240)
+}
+
+.month {
+    background-color: rgb(170,170,200);
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+    color: rgb(255, 220, 220);
+}
+
