@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 4 CSS</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://kit.fontawesome.com/329c67ddc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+
+    <section class="marginheader flex">
+        <div class="widthheader">
+            <h1>Web Development</h1>
+            <p class="tussentitel">CSS : labo 3</p>
+            <p>Deze les behandelt voornamelijk het visual formatting model waarmee elementen op de pagina
+                kunnen gezet worden.</p>
+        </div>
+        <div>
+            <i class="fas fa-arrow-circle-down" id="arrowdown"></i>
+        </div>
+    </section>
+</header>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>opdracht 1</h2>
+            <span class="streep"></span>
+        </div>
+        <p class="vraag">Ga na wat het effect is van het veranderen van de display property voor .area naar
+            achtereenvolgens: block, inline, inline‐block</p>
+        <div>
+            <div class="flex">
+                <p>inline</p>
+                <p>block</p>
+                <p>inline-block</p>
+            </div>
+            <div class="flex marginbottom">
+                <img class="opdr1img" src="images/inline.png" alt="voorbeeld inline">
+                <img class="opdr1img" src="images/block.png" alt="voorbeeld block">
+                <img class="opdr1img" src="images/inlineblock.png" alt="voorbeeld inlineblock">
+            </div>
+            <div class="marginbottom">
+                <p class="vraag">Voor welke waarden worden de opgegeven width en height genegeerd?</p>
+                <p>Bij 'display: inline' worden de opgegeven waarden gerespecteerd. </p>
+            </div>
+            <div class="marginbottom">
+                <p class="vraag">Voor welke waarden worden de elementen als woorden op een pagina gezet?</p>
+                <p>Bij 'display:block' worden de opgegeven waarden gezien als woorden</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 2 </h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Stel display:inline‐block voor de elementen met class area, en bekijk opnieuw
+                    ‘voorbeeld1.html’.
+                    Vanwaar komen de lege ruimtes tussen blokken die naast elkaar staan?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>Dit komt door de default browser grid lay-out.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 3 </h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex smallbox">
+            <div class="width">
+                <p class="vraag">Waarom staat de tekst in de blokken horizontaal gecentreerd?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>Omdat er op het element een 'text-align: center;' werd toegepast.</p>
+            </div>
+        </div>
+        <div class="flex smallbox">
+            <div class="width">
+                <p class="vraag">Wat is het veschil tussen vertical-align en text-align</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>text-align= een CSS-eigenschap, die wordt gebruikt om de tekst uit te lijnen binnen een alinea,
+                    div, ... (zoals centreren, links, rechts.)</p>
+                <p>vertical-align= bepaalt hoe elementen die naast elkaar op een lijn zijn geplaatst, worden
+                    uitgelijnd.</p>
+            </div>
+        </div>
+        <div class="flex smallbox">
+            <div class="width">
+                <p class="vraag">Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>Voeg dit toe in de css-code op de klasse die je wil centreren:</p>
+                <p>.center {</p>
+                <p class="insprong">line-height: 200px;</p>
+                <p class="insprong">height: 200px;</p>
+                <p class="insprong">text-align: center; </p>
+                <p>}</p>
+            </div>
+        </div>
+        <div class="flex smallbox">
+            <div class="width">
+                <p class="vraag">Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>Omdat de eigenschap vertical-align werkt met tabelcellen, kan je de bovenliggende div instellen als
+                    een
+                    CSS-tabel en kan je de onderliggende div instellen als een tabelcel, gevolgd door het gebruik van
+                    vertical-align:
+                    middle om de inhoud van de onderliggende div verticaal te centreren. Deze methode werkt met
+                    meerdere regels tekst en de container-div groeit dynamisch mee met de inhoud.</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">In 'styles.css' staan twee verschillende CSS regels die de height instellen van een
+                    element met
+                    class="area tall". Waarom krijgt de regel voor class 'tall' voorrang?</p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p>Omdat de regel .tall meer op een lagere lijn staat dan .area. Hoe verder in de code iets staat, hoe
+                    meer prioriteit
+                    eraan wordt gegeven.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 4 </h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Maak de nodige aanpassingen en merk op. </p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="css deel 4 voorbeelden positionering/voorbeeld3.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="margin">
+    <section class="box">
+        <div class="inline">
+            <h2>Opdracht 5 </h2>
+            <span class="streep"></span>
+        </div>
+        <div class="flex">
+            <div class="width">
+                <p class="vraag">Maak de nodige aanpassingen en merk op. </p>
+            </div>
+            <i class="fas fa-arrow-right"></i>
+            <div class="width">
+                <p><a href="css deel 4 voorbeelden positionering/voorbeeld4.html" target="_blank">Klik hier</a> om naar de opdracht te gaan</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<footer>
+    <section class="flex margin">
+        <div>
+            <p>Jennifer Mestdagh</p>
+            <p>Web Development 2021</p>
+            <p>Week 8 - CSS : Labo 4</p>
+        </div>
+        <p>Katholieke Hogeschool Vives</p>
+    </section>
+</footer>
+</body>
+</html>
+</body>
+</html>
