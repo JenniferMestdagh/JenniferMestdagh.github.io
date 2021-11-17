@@ -5,34 +5,56 @@
     font-family: Montserrat, sans-serif;
 }
 
+header {
+    background-color: rgb(240, 240, 240);
+    margin: 0px !important;
+}
+
 .container {
-    margin: 50px 100px;
+    padding: 50px 100px;
 }
 
 .navigation {
-    background-color: #2B2D42;
-    color: white;
     font-size: 14pt;
-    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation2 {
+    background-color: rgb(240, 240, 240);
+    font-size: 14pt;
     text-transform: uppercase;
     padding: 20px;
     text-align: center;
 }
 
 .navigation a {
-    color: white;
     text-decoration: none;
     padding: 0px 30px;
+    color: black;
+}
+
+.navigation2 a {
+    text-decoration: none;
+    padding: 0px 30px;
+    color: black;
 }
 
 .navigation a:hover {
     font-weight: bolder;
-    font-size: 15pt;
+}
+
+.ik {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .flexevenly {
     display: flex;
-    justify-content: space-evenly;
+    column-gap: 30px;
 }
 
 .flex {
@@ -44,7 +66,8 @@
 }
 
 .blok {
-    margin-top: 50px;
+    margin: auto;
+    width: 50%;
 }
 
 .blok2 {
@@ -52,16 +75,31 @@
     width: 70%;
 }
 
+.icons {
+    margin-top: 30px;
+}
+
+i {
+    margin-right: 20px;
+    color: darkolivegreen;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
 h1 {
     font-size: 20pt;
     font-weight: bolder;
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 16pt;
     font-weight: bold;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 h3 {

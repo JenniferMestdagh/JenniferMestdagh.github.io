@@ -87,7 +87,7 @@ h2 {
 .streep {
     background-color: #b2d426;
     width: calc(100% - 45px);
-    height: 15px;
+    height: 13px;
     position: absolute;
     top: 17px;
     left: 45px;
