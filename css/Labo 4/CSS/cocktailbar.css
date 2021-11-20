@@ -1,0 +1,88 @@
+body {
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #007e7e;
+    font-size: 150%;
+}
+
+h2 {
+    color: #007e7e;
+    font-size: 130%;
+}
+
+header > p > img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+.black{
+    color: black;
+}
+
+.orange {
+    color: orange;
+}
+
+.brown {
+    color: saddlebrown;
+}
+
+.weeklySpecials {
+    color: #353969;
+}
+
+.flex {
+    display: flex;
+}
+
+.links {
+    width: 70%;
+}
+
+.rechts {
+    width: 30%;
+    border: 1px solid #007e7e;
+    padding: 30px;
+    text-align: center;
+    margin-left: 50px;
+    background-image: url("../opdracht_cocktailbar/begin_cocktail_bar/images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+
+#guarantee {
+    font-style: italic;
+    margin: 30px;
+    padding: 20px;
+    background-color: #a7cece;
+    color: #444444;
+    border: 1px white dashed;
+    display: flex;
+}
+
+.star {
+    width: 50px;
+    height: 100%;
+}
+
+a {
+    color: black;
+    color: #444444;
+}
+
+.rechts a:hover {
+    background-color: #555555;
+    color: white;
+    border-radius: 2px;
+}
+
+footer {
+    font-size: 50%;
+    text-align: center;
+}

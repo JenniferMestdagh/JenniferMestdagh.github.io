@@ -162,6 +162,33 @@ a:hover {
 }
 
 
+/* OPDRACHT LOREM ISPUM */
+.loremIpsum {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px
+}
+
+.widthPercentage {
+    width: 47%;
+}
+
+.widthPixels {
+    width: 550px;
+}
+
+.relative {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
 /* FOOTER */
 
 footer {
