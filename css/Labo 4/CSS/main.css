@@ -194,6 +194,7 @@ main > section {
 footer {
     background-color: #222222;
     color: white;
+    margin-top: 50px;
 }
 
 .flex {
