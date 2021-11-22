@@ -1,0 +1,19 @@
+.loremIpsum {
+    display: flex;
+}
+
+.loremIpsum > section{
+    width: 49%;
+}
+
+.margin {
+    margin-left: 2%;
+}
+
+.widthPercentage {
+    width: 47%;
+}
+
+.widthPixels {
+    width: 540px;
+}
