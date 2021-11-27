@@ -3,12 +3,24 @@
     margin: 0px;
 }
 
+/*
+
+DE GRADIENT IMAGE VIND IK ZEER ONLOGISCH ALS ER BOX SHADOW BESTAAT
+
+body {
+    background-image: url("../opdracht airbus/fotos/pagebackground.png");
+    background-size: 956px;
+    background-position: center;
+}
+
+*/
+
 .container {
+    background-color: white;
     width: 960px;
     margin: auto;
     box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 8px 0 15px -4px rgba(126, 126, 126, 0.8), -8px 0 15px -4px rgba(126, 126, 126, 0.8);
 }
-
 
 /* BOVENSTE BLOK */
 
@@ -132,4 +144,5 @@ header {
 .copyright {
     text-align: center;
     margin: 10px 0px;
+    background-color: white;
 }
