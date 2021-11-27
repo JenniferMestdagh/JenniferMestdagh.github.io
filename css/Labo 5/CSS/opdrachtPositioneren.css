@@ -1,0 +1,24 @@
+main {
+    margin: 25px 100px;
+}
+
+* {
+    font-size: 1.14em;
+}
+
+article {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+article:nth-child(odd) img {
+    float:left;
+    margin-right: 10px;
+}
+
+article:nth-child(even) img {
+    float:right;
+    margin-left:10px;
+}
