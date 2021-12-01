@@ -1,0 +1,66 @@
+body {
+	font: 1.2em/1.2 Helvetica, aria, sans-serif;
+	margin: 0 3%;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: .9em 0 0 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	background: black;
+	border-radius: 5px;
+	color: red;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	text-align: center;
+
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+section {
+	display: grid;
+	gap: 20px;
+}
+
+@media only screen and (max-width: 768px){
+	body {
+		background-color: white;
+	}
+
+	section {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	body {
+		background-color: #cbccfa;
+	}
+
+	section {
+		grid-template-columns: 1fr 1fr !important; /* fr= fracion : kan gebruikt worden als aantal kollommen */
+	}
+}
+
+@media only screen and (min-width: 992px){
+	body {
+		background-color: #d7fed0;
+	}
+
+	section {
+		grid-template-columns: 1fr 1fr 1fr !important;
+	}
+}
