@@ -1,8 +1,13 @@
 .bg {
     background-color: gray;
     height: 30vh;
-    margin: 10px;
     float: left;
+    border-left:10px solid white;
+}
+
+.row {
+    margin-bottom: 10px;
+
 }
 
 /*PHONE*/

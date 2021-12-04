@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    background-color: rgb(240, 240, 240);
+    margin: 0px !important;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    padding: 20px 100px;
+}
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    padding: 20px 100px;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
+
+.container {
+    padding: 50px 100px;
+}
+
+.ik {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.flexevenly {
+    display: flex;
+    column-gap: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    list-style: none;
+}
+
+.blok {
+    margin: auto;
+    width: 50%;
+}
+
+.blok2 {
+    margin-left: 30px;
+    width: 70%;
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+i {
+    margin-right: 20px;
+    color: darkolivegreen;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    color: white;
+    background-color: #2B2D42;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #2B2D42;
+    background-color: white;
+    border: 1px solid #2B2D42;
+}
+
+ol {
+    margin-left: 50px;
+}
+
+.NF {
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+}
+
+.movie {
+    height: 50%;
+    width: 300px;
+    object-fit: cover;
+}
+
+/* BOOTSTRAP ADJUSTMENTS */
+
+.nav-item a {
+    color: darkolivegreen;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-item a:hover {
+    color: darkolivegreen;
+    font-size: 105%;
+    padding-top: 5px;
+}
+
+.card {
+    width: 28vw !important;
+}
+
+.card img {
+    height: 330px;
+    object-fit: cover;
+}
+
+.carousel img{
+    height: 70vh !important;
+    object-fit: cover;
+}
+
+.carousel h5{
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+}
