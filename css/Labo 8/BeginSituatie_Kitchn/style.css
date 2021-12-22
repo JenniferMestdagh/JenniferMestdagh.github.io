@@ -90,6 +90,7 @@ header img {
 .bg {
     background-image: url("images/headerimage.jpg");
     background-size: cover;
+    background-position: center center;
     height: 500px;
 }
 
@@ -97,7 +98,7 @@ header img {
     color: white;
     font-size: 40px;
     text-align: center;
-    padding: 227px 0px;
+    margin: auto;
     text-shadow: 2px 2px #8D99AE;
 }
 

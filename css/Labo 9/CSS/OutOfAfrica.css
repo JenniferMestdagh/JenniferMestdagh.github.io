@@ -1,0 +1,143 @@
+/* ALGEMEEN */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+body {
+    background: rgb(220,210,197);
+    background: linear-gradient(0deg, rgba(220,210,197,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+p {
+    font-size: 12pt;
+}
+
+.float {
+    float: left;
+}
+
+.container {
+    margin: 0% 18%;
+    background-color: #ECEADF;
+}
+
+
+.title {
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14pt;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.body {
+    border-bottom: 5px solid black;
+}
+
+.margin {
+    margin: 10px;
+    display: flex;
+}
+
+
+/* HEADER */
+
+header {
+    position: relative;
+}
+
+.headerimg {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.headerland {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    height: 90%;
+}
+
+/* NAVIGATION */
+
+.flexAround {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 20% 5% 20%;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Montserrat, sans-serif;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* LINKS */
+
+.links {
+    width: 65%;
+    margin-right: 15px;
+}
+
+.links img {
+    height: 100%;
+    width: 30%;
+    object-fit: contain;
+    margin: 10px 10px 10px 0px;
+    border: 1px solid black;
+}
+
+/* RECHTS */
+
+.rechts {
+    width: 35%;
+}
+
+.rechts > img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+
+footer {
+    height: 70px;
+    padding: 10px;
+    text-align: right;
+}
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 1200px){
+    .margin {
+        display: block;
+    }
+
+    .links {
+        width: 100%
+    }
+
+    .rechts {
+        width: 100%;
+    }
+}
