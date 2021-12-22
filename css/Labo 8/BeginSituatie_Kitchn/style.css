@@ -4,6 +4,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    margin: 0px auto;
+}
+
 .respimg {
     width: 100%;
     height: auto;
@@ -170,15 +174,7 @@ footer {
 
 /* MEDIA-QUERIES FOR SCREEN SIZES */
 @media only screen and (max-width: 769px) {
-    header {
-        width: 600px;
-    }
-
-    .recipe {
-        width: 600px;
-    }
-
-    .recommended {
+    body {
         width: 600px;
     }
 }
@@ -197,7 +193,7 @@ footer {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 771px) {
     .bg > p {
         font-size: 5em;
         padding: 204px 0px;
