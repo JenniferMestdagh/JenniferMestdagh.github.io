@@ -4,14 +4,13 @@ const setup = () => {
 }
 
 const splits = () => {
+    let txtInput = document.getElementById("txtInput").value;
     let txtLinks = document.getElementById("txtLinks");
     let txtRechts = document.getElementById("txtRechts");
 
-    let btnVoegToe = document.getElementById("btnVoegToe");
+    let resultaat = document.getElementById("resultaat");
 
-    let txtInput = document.getElementById("txtInput").value
-    txtInput.substring(txtLinks, txtRechts);
-    resultaat.innerHTML = txtInput(txtLinks.value, txtRechts.value)
+    resultaat.innerHTML = txtInput.substring(txtLinks.value, txtRechts.value)
 }
 
 
