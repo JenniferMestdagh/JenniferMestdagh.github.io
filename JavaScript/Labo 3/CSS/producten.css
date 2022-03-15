@@ -1,0 +1,21 @@
+table {
+    border: 1px solid gray;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+.subtotaal::before, .prijs::before, #totaal::before {
+    content: "€";
+}
+
+.btw::after {
+    content: "%";
+}
+
+
