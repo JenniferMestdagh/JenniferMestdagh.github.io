@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Invulformulier</title>
+</head>
+<body>
+    <form>
+        <label for="firstname">First name* :</label>
+        <input type="text" id="firstname" name="username" required="required" placeholder="Your first name" autofocus="autofocus"> <br>
+
+        <label for="lastname">Last name* :</label>
+        <input type="text" id="lastname" name="username" required="required" placeholder="Your first name"> <br>
+
+        <p>Which sport do you train?</p>
+        <input type="checkbox" id="running" name="running" value="running">
+        <label for="running">Running</label><br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming">Swimming</label><br>
+        <input type="checkbox" id="rowing" name="rowing" value="rowing">
+        <label for="rowing">Rowing</label><br>
+
+        <p>What is your gender?</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"> <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"> <br>
+
+        <label for="movie">Favorite movie:</label>
+        <input type="text" id="movie" name="favoriteMovie"> <br>
+
+        <label for="quote">Favorite quote:</label>
+        <input type="text" id="quote" name="quote" placeholder="Write your favorite quote"> <br>
+
+        <label for="password">Password* :</label>
+        <input type="text" id="password" name="password" required="required"> <br>
+
+        <label for="cars">Favorite food:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Hamburger</option>
+            <option value="saab">Pizza</option>
+            <option value="mercedes">Pasta</option>
+            <option value="audi">Salade</option>
+        </select> <br>
+
+        <input type="file" name="fileToUpload" id="fileToUpload"> <br>
+
+        <label for="email">E-mail address:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email address"> <br>
+
+        <label for="site">Favorite website:</label>
+        <input type="url" id="site" name="site" placeholder="enter a website link"> <br>
+
+        <label for="number">Favorite number between 1-10:</label>
+        <input type="number" id="number" name="number" max="10" min="1"> <br>
+
+        <label for="number">Favorite number between 11-1000:</label>
+        <input type="range" min="11" max="1000" value="989" id="slider" name="slider"> <br>
+
+        <label for="start">Start date:</label>
+        <input type="date" id="start" name="trip-start" value="Jaar/Maand/Maand" min="1900-01-01" max="2022-03-14"> <br>
+
+        <label for="start">ZIP-code:</label>
+        <input id="zip" name="zip" type="text" pattern="[1-9][0-9]{3}" placeholder="9999"> <br>
+
+        <label for="search">Search for something :</label>
+        <input type="search" id="search" name="search"> <br>
+
+        <label for="colorpicker">What is your favorite color?</label>
+        <input type="color" id="colorpicker" name="colorpicker" value="#ff00dc"> <br>
+
+        <input class="button" type="submit" value="submit">
+    </form>
+</body>
+</html>
