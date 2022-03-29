@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formvalidatie</title>
+</head>
+<body>
+    <label for="firstname">Voornaam: </label>
+    <input type="text" id="firstname" name="firstname" minlength="0" maxlength="30"> <br>
+
+    <label for="lastname">Familienaam:* </label>
+    <input type="text" id="lastname" name="lastname" required minlength="1" maxlength="50"> <br>
+
+    <label for="year">Geboortedatum:* </label>
+    <input type="date" id="year" name="year" required minlength="1" maxlength="50"> <br>
+
+    <label for="e-mail">e-mail:* </label>
+    <input type="text" id="e-mail" name="e-mail" required minlength="1" maxlength="50"> <br>
+
+    <label for="kinderen">aantal kinderen: </label>
+    <input type="number" id="kinderen" name="kinderen" min="0" max="99"> 
+
+
+    <script src="../Javascript/formvalidattie.js"></script>
+</body>
+</html>
