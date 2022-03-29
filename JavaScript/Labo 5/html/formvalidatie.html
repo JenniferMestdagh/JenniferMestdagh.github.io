@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Formvalidatie</title>
+    <link rel="stylesheet" href="../CSS/formvalidatie.css">
 </head>
 <body>
     <label for="firstname">Voornaam: </label>
@@ -14,12 +15,13 @@
     <label for="year">Geboortedatum:* </label>
     <input type="date" id="year" name="year" required minlength="1" maxlength="50"> <br>
 
-    <label for="e-mail">e-mail:* </label>
-    <input type="text" id="e-mail" name="e-mail" required minlength="1" maxlength="50"> <br>
+    <label for="email">e-mail:* </label>
+    <input type="email" id="email" name="email" required minlength="1" maxlength="50"> <br>
 
     <label for="kinderen">aantal kinderen: </label>
-    <input type="number" id="kinderen" name="kinderen" min="0" max="99"> 
+    <input type="number" id="kinderen" name="kinderen" min="0" max="99"> <br>
 
+    <input id="button" type="submit" value="Toon resultaat">
 
     <script src="../Javascript/formvalidattie.js"></script>
 </body>
