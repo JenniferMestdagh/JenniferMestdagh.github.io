@@ -1,6 +1,7 @@
 const setup = () => {
-    email.addEventListener("input", emailValidation);
-    children.addEventListener("input", childrenValidation);
+    let button = document.getElementById('button')
+    button.addEventListener("click", emailValidation);
+    button.addEventListener("click", childrenValidation);
 }
 
 const email = document.getElementById("email");
@@ -25,5 +26,5 @@ const childrenValidation = () => {
     }
 }
 
-let button = document.getElementById('button')
-button.addEventListener("click", setup);
+
+window.addEventListener("load", setup);
