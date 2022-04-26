@@ -17,8 +17,9 @@ const genereerKaartjes = (i) => {
 const genereerSpelbord = () => {
     for(let i = 0; i < 12; i++){
         let card = genereerKaartjes(i);
-        document.getElementById("playField").appendChild(card);
         card.src = 'images/' + arr[i];
+        card.setAttribute("data-card",'images/' + arr[i]);
+        document.getElementById("playField").appendChild(card);
     }
 }
 
